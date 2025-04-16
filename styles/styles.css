@@ -1,0 +1,183 @@
+/* Body */
+
+body {
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    background-color: #082419;
+    color: white;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+}
+
+.wrapper.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: #a418db;
+    transition: color 0.5s;
+}
+
+a:hover{
+    color: #E2E2B6;
+}
+
+/* Navigation */
+
+nav {
+    display: flex;
+    gap: 10px;
+}
+
+
+header a {
+    font-size: larger;
+    padding: 0 15px 0;
+    margin: 0 auto auto auto;
+    line-height: 2;
+    /* outline: 1px solid black; */
+}
+
+header h1 a {
+    padding: 0;
+}
+
+header a:link, header a:visited, header a:focus {
+    /* background: lightgrey; */
+    color: white;
+    transition: color 0.5s;
+}
+
+header a:hover {
+    color: #a418db;
+}
+
+
+/* Header */
+
+header {
+    padding: 15px;
+    background-color: #03346E;
+    border-bottom: 2px solid #E2E2B6;
+}
+
+/* Main */
+
+section {
+    /* border-bottom: 2px solid #E2E2B6; */
+}
+
+/* p { */
+/*     text-align: justify; */
+/* } */
+
+figure {
+    /* margin-left: 0px; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.picture {
+    /* max-height: 100%; */
+    width: 100%;
+    border-radius: 25px;
+}
+
+img.picture ~ figcaption {
+    text-align: center;
+}
+
+.unnumbered {
+    list-style: none;
+}
+
+/* Text formatting */
+
+.booktitle, .journaltitle {
+    font-style: italic;
+}
+
+/* Bibliography */
+
+.publist {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.publist .bibitem {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.publist .bibitem .data {
+    max-width: 600px;
+}
+
+.publist .title {
+    font-weight: bold;
+    color: #6EACDA;
+}
+
+.publist .author {
+}
+
+.publist .journal {
+}
+
+.publist .misc {
+}
+
+.publist .links{
+    display: flex;
+    gap: 10px;
+    
+}
+
+.publist .links a {
+    margin: 0px auto auto auto;
+    padding: 0 5px 0;
+    line-height: 2;
+    width: 40px;
+    text-align: center;
+    font-size: small;
+    color: black;
+    background: #6EACDA;
+    /* outline-style: outset; */
+    transition: 0.5s;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+.publist .links a:hover {
+    background: #E2E2B6;
+    color: black;
+    /* outline-style: inset; */
+}
+
+/* Courses table */
+
+.courses {
+    table-layout: fixed;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+table.courses tbody tr:nth-child(odd) {
+    background-color: #03346E;
+}
+
+table.courses caption {
+    caption-side: bottom;
+    text-align: right;
+}
