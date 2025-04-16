@@ -10,6 +10,14 @@ body {
     color: white;
 }
 
+.hwrapper {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    vertical-align: middle;
+    text-align:center
+}
+
 .wrapper {
     width: 90%;
     max-width: 900px;
@@ -66,7 +74,7 @@ header a:hover {
 
 header {
     padding: 15px;
-    background-color: #03346E;
+    background-color: #082419;
     border-bottom: 2px solid #E2E2B6;
 }
 
@@ -174,7 +182,7 @@ img.picture ~ figcaption {
 }
 
 table.courses tbody tr:nth-child(odd) {
-    background-color: #03346E;
+    background-color: #082419;
 }
 
 table.courses caption {
